@@ -34,7 +34,20 @@ body {
         width: auto;
     }
 
+
+    .input_container div input {
+        padding: 9px 0px;
+        background-color: #294571;
+        width: 299px;
+        border-radius: 5px;
+        margin-right: 40px;
+    }
+
+
 }
+
+
+
 
 
 .header {
@@ -54,7 +67,7 @@ body {
     background-color: brown;
     padding-bottom: 15px;
     width: auto;
-    background-image: url(WhatsApp\ Image\ 2024-02-02\ at\ 10.03.22_17c1bc25\ hjn.jpg);
+    background-image: url(WhatsApp\ Image\ 2024-02-02\ at\ 10.03.22_f5608be4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -76,14 +89,15 @@ body {
 }
 
 .input_container div {
-    margin-left: 30px;
+    /* margin-left: 30px; */
     padding-bottom: 20px;
+    padding-left: 30px;
     width: auto;
 }
 
 .input_container div input {
     padding: 9px 0px;
-    background-color: #294571;
+    background-color: #141921;
     width: 300px;
     border-radius: 5px;
 }
@@ -91,36 +105,9 @@ body {
 .btn {
     margin-left: 6px;
     padding: 15px 120px;
-    background-color: rgb(6, 114, 180);
+    background-color: #383f4dfd;
     border-radius: 5px;
     color: white;
     font-size: 20px;
+    font-weight: bold;
 }
-
-/* .header {
-    background-color: black;
-}
-
-.header h1 {
-    color: green;
-    font-size: 15px;
-    margin-left: 50px;
-
-}
-
-.container {
-    padding: 30px 150px 100px 150px;
-    /* width: auto; */
-}
-
-/ .container_details {
-    /* background-color: red; */
-    padding-left: 210px;
-    padding-right: 220px;
-    padding-bottom: 490px;
-    background-image: url(WhatsApp\ Image\ 2024-02-02\ at\ 10.03.22_17c1bc25\ hjn.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-*/

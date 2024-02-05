@@ -11,7 +11,7 @@ body {
     background-color: grey;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 
 }
 
@@ -26,7 +26,7 @@ body {
 
     body {
         justify-content: center;
-        /* align-items: center; */
+        align-items: center;
         background-color: grey;
     }
 
@@ -54,46 +54,48 @@ body {
     background-color: brown;
     padding-bottom: 420px;
     width: auto;
-    background-image: url(WhatsApp\ Image\ 2024-02-02\ at\ 10.03.22_17c1bc25\ hjn.jpg);
+    background-image: url(WhatsApp\ Image\ 2024-02-02\ at\ 10.03.22_f5608be4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
+}
 
-    .image {
-        margin-top: 40px;
-        display: flex;
-        justify-content: center;
-    }
+.image {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    .input_container {
+.input_container {
 
-        height: auto;
-        width: 100%;
-        margin-top: 50px;
+    height: auto;
+    width: 100%;
+    margin-top: 50px;
 
-    }
+}
 
-    .input_container div {
-        margin-left: 30px;
-        padding-bottom: 20px;
-        width: auto;
-    }
+.input_container div {
+    margin-left: 30px;
+    padding-bottom: 20px;
+    width: auto;
+}
 
-    .input_container div input {
-        padding: 9px 0px;
-        background-color: #294571;
-        width: 300px;
-        border-radius: 5px;
-    }
+.input_container div input {
+    padding: 9px 0px;
+    background-color: #294571;
+    width: 300px;
+    border-radius: 5px;
+}
 
-    .btn {
-        margin-left: 6px;
-        padding: 15px 120px;
-        background-color: rgb(6, 114, 180);
-        border-radius: 5px;
-        color: white;
-        font-size: 20px;
-    }
+.btn {
+    margin-left: 6px;
+    padding: 15px 120px;
+    background-color: rgb(6, 114, 180);
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
